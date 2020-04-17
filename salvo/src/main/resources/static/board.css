@@ -1,0 +1,58 @@
+*{
+    font-family: 'Press Start 2P', cursive;
+
+}
+.cell{
+    padding: 10px;
+    border: 1px solid white;
+}
+
+td{
+    background-color: green;
+}
+th{
+    text-align: center;
+
+}
+h1{
+    text-align: center;
+}
+#button_box{
+    display: flex;
+    justify-content: space-evenly;
+}
+#start{
+    text-align: center;
+    font-family:'Press Start 2P',cursive;
+    background-color: red;
+    color:white;
+    animation: blinker 2s linear infinite;
+}
+@keyframes blinker {
+50% {
+  opacity: 0;
+}
+
+}
+#ship_deploy{
+    text-align: center;
+    font-family:'Press Start 2P',cursive;
+    background-color: red;
+    color:white;
+    animation: blinker 2s linear infinite;
+}
+@keyframes blinker {
+50% {
+  opacity: 0;
+}
+}
+
+h2{
+    color:red;
+    /* animation: blinker 3s linear infinite;
+    }
+@keyframes blinker {
+    50% {
+      opacity: 0;
+    } */
+  }
